@@ -1,0 +1,23 @@
+.user-info {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--bordertop);
+  padding-bottom: 15px;
+}
+
+.user-info__photo {
+  width: 90px;
+  height: 90px;
+}
+
+.user-info__photo img {
+  width: 90px;
+  height: 90px;
+  border-radius: 35px;
+}
+
+.user-info__title {
+  margin-left: 15px;
+  font-size: 25px;
+  font-weight: 600;
+}

@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+@import url(reset.css);
+@import url(variable.css);
+
+/* Screens */
+@import url(screens/login.css);
+@import url(screens/friends.css);
+@import url(screens/chats.css);
+@import url(screens/find.css);
+@import url(screens/more.css);
+@import url(screens/setting.css);
+@import url(screens/chat.css);
+
+/* Component */
+@import url(component/status-bar.css);
+@import url(component/screen-header.css);
+@import url(component/user-info.css);
+@import url(component/nav-bar.css);
+@import url(component/icon-row.css);
+@import url(component/alt-screen-header.css);
+@import url(component/no-mobile.css);
+
+body {
+  background-color: #cadbd8;
+  font-family: nunito;
+  height: 100vh;
+}

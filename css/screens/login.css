@@ -1,0 +1,64 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.info h1 {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+#login-form input,
+#login-form button {
+  width: 100%;
+  height: 50px;
+  border: 0px;
+  font-size: 20px;
+}
+
+#login-form input:nth-child(1),
+#login-form input:nth-child(2) {
+  background-color: #cadbd8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.login-btn,
+.qr__login-btn {
+  border-radius: 5px;
+}
+
+.login-btn {
+  background-color: var(--blue);
+}
+
+.login-stay {
+  margin: 20px 0px 30px 0px;
+  font-size: 20px;
+}
+
+.or {
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.2);
+  margin: 20px 0px;
+}
+
+.or::before,
+.or::after {
+  content: "";
+  flex-grow: 1;
+  margin: 0px 16px;
+  background: rgba(0, 0, 0, 0.2);
+  height: 1px;
+  font-size: 0px;
+  line-height: 0px;
+}
+
+.info-etc {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}

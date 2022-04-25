@@ -1,0 +1,25 @@
+.nav-bar__lists {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+  background-color: #bdd4d0;
+}
+
+nav-bar__lists i:last-child {
+  position: relative;
+}
+
+.nav__dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: tomato;
+  position: absolute;
+  right: 7%;
+  top: 20px;
+}
